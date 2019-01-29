@@ -13,24 +13,21 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     
     <link href="assets/custom.css" rel="stylesheet">
-    <!-- <style>
-      .bg { position: absolute; top: 50%; left: 50%; min-height: 80%; margin: 20px 0px; transform: translateX(-50%) translateY(-50%); }
-    </style> -->
   </head>
 
   <body class="text-center">
-    <nav class="d-flex flex-row navbar-expand-lg navbar-light bg-clear my-2 my-md-0 mr-md-3 justify-content-end box-shadow">
-      <h5 class="my-0 mr-md-auto font-weight-normal ml-3 mt-3 mb-2"><a href="index.html" class="text-warning">My Portfolio</a></h5>
-      <a class="btn btn-outline-success mr-2 mt-2 mb-2" href="about.html">About Me</a>
-      <a class="btn btn-outline-success mr-2 mt-2 mb-2" href="project.html">Projects</a>
-    </nav>
-    <!-- @include('layouts.nav') -->
 
     <div class="container-fluid">
-      <header class="container-fluid">
+      <nav class="d-flex flex-row navbar-expand-lg navbar-light bg-clear my-2 my-md-0 mr-md-3 box-shadow">
+        <h5 class="my-0 mr-md-auto font-weight-normal ml-3 mt-3 mb-2"><a href="index.html" class="text-warning">My Portfolio</a></h5>
+        <a class="btn btn-outline-success mr-2 mt-2 mb-2" href="about.html">About Me</a>
+        <a class="btn btn-outline-success mr-2 mt-2 mb-2" href="project.html">Projects</a>
+      </nav>
+      <!-- @include('layouts.nav') -->
+      <header>
         <h2 class="d-flex justify-content-center mb-3 text-dark">About Me</h2>
       </header>
-      <div class="video-container">
+      <div class="content video-container">
         <video autoplay loop muted controls class="bg">
           <source src="video.mp4" type="video/mp4">
           <source src="movie.ogg" type="video/ogg">
